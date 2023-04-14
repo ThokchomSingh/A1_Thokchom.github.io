@@ -1,0 +1,60 @@
+html{
+    background-color: black;
+}
+  
+.slideshow {
+    position: fixed;
+    height: 1000px;
+    width: 1000px;
+    margin-inline: 260px;
+    margin-block: 50px;
+
+}
+
+.slide {
+    display: none;
+    width: 100%;
+    height: auto;
+}
+
+.prev {
+    position: absolute;
+    top: 66%;
+    padding: 10px;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.next {
+    position: absolute;
+    top: 66%;
+    padding: 10px;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.prev {
+    left: 0;
+}
+
+
+.next {
+    right: 0;
+}
+
+
+
+
+
+
+
+
+
+
+
